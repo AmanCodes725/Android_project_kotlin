@@ -1,0 +1,22 @@
+<!-- dialog_delete_document.xml -->
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical"
+    android:padding="16dp">
+
+    <Spinner
+        android:id="@+id/spinnerDocuments"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="16dp"/>
+
+    <Button
+        android:backgroundTint="@color/black"
+        android:textColor="@color/white"
+        android:id="@+id/buttonDeleteDocument"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Delete Document"/>
+</LinearLayout>

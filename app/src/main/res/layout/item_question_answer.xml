@@ -1,0 +1,76 @@
+<!-- res/layout/item_question.xml -->
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical"
+    android:padding="8dp"
+    android:background="@color/white">
+
+    <!-- Question Description and Options -->
+    <TextView
+        android:layout_marginTop="8dp"
+        style="@style/TextAppearance.AppCompat.Headline"
+        android:id="@+id/tvDescription"
+        android:layout_width="match_parent"
+        android:textColor="@color/black"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:text="Question Description" />
+
+
+    <TextView
+        android:layout_marginTop="8dp"
+        android:id="@+id/tvOption1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textColor="@color/black"
+        android:textSize="18sp"
+        android:gravity="center"
+        android:text="Option 1"/>
+
+    <TextView
+        android:id="@+id/tvOption2"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textColor="@color/black"
+        android:textSize="18sp"
+        android:gravity="center"
+        android:text="Option 2"/>
+
+    <TextView
+        android:id="@+id/tvOption3"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textColor="@color/black"
+        android:textSize="18sp"
+        android:gravity="center"
+        android:text="Option 3"/>
+
+    <TextView
+        android:id="@+id/tvOption4"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textColor="@color/black"
+        android:textSize="18sp"
+        android:gravity="center"
+        android:text="Option 4"/>
+
+    <!-- Edit and Delete Buttons -->
+    <Button
+        android:id="@+id/btnEdit"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:backgroundTint="@color/black"
+        android:text="Edit"
+        android:textColor="@color/white" />
+
+    <Button
+        android:backgroundTint="@color/black"
+        android:textColor="@color/white"
+        android:id="@+id/btnDelete"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Delete" />
+</LinearLayout>
+

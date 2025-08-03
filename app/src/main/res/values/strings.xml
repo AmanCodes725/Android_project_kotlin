@@ -1,0 +1,10 @@
+<resources>
+    <string name="app_name">QuizSwift</string>
+    <string name="follow_us">Follow us</string>
+    <string name="profile">Profile</string>
+    <string name="rate_us">Rate us</string>
+    <string name="navigation_drawer_open">Open Navigation Drawer</string>
+    <string name="navigation_drawer_close">Close Navigation Drawer</string>
+    <string name="timer">Timmer</string>
+    <string name="QuizStart">Quiz Start</string>
+</resources>

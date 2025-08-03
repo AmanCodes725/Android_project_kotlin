@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="black">#FF000000</color>
+    <color name="white">#FFFFFFFF</color>      <!-- White -->
+    <color name="grey">#FF808080</color>       <!-- Grey -->
+    <color name="blue">#FF0000FF</color>       <!-- Blue -->
+    <color name="purple">#FF800080</color>     <!-- Purple -->
+    <color name="green">#FF00FF00</color>      <!-- Green -->
+    <color name="red">#FFFF0000</color>        <!-- Red -->
+    <color name="cyan">#00FFFF</color>
+    <color name="dark_blue">#00008B</color>
+    <color name="soft_brown">#eed7a1</color>
+    <color name="soft_yellow">#FFF9C4</color>
+    <color name="dark_yellow">#FBC02D</color>
+    <color name="my_primary">#6200EE</color>
+    <color name="my_primary_variant">#3700B3</color>
+    <color name="my_on_primary">#FFFFFF</color>
+    <color name="my_secondary">#03DAC5</color>
+    <color name="my_on_secondary">#000000</color>
+    <color name="light_red">#F96167</color>
+
+
+</resources>
